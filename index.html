@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya Main | Full-Stack Developer Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+    <!-- AOS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+
+    <style>
+        body {
+            scroll-behavior: smooth;
+            background: #f5f7fa;
+            font-family: "Poppins", sans-serif;
+        }
+        /* Navbar */
+        
+        .navbar {
+            background: #0d6efd;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .navbar-brand {
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+        }
+        /* Hero Section */
+        
+        .hero {
+            background: linear-gradient(135deg, #e3f2fd, #d0e7ff);
+            padding: 100px 0;
+        }
+        
+        .hero img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid white;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        /* Section */
+        
+        .section {
+            padding: 70px 0;
+        }
+        /* Cards */
+        
+        .custom-card {
+            border-radius: 14px;
+            padding: 25px;
+            transition: 0.3s ease;
+            background: white;
+            border: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .custom-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .skill-badge {
+            padding: 8px 14px;
+            margin: 4px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border-radius: 50px;
+            background: #e3efff;
+            color: #0d47a1;
+        }
+        
+        footer {
+            background: #0d6efd;
+            padding: 20px;
+            color: white;
+            margin-top: 30px;
+        }
+        
+        .section-title {
+            font-size: 2.1rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+        }
+        
+        a {
+            text-decoration: none !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Aditya Main</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+                    <li class="nav-item">
+                        <a class="btn btn-light btn-sm ms-2" href="./Aditya-Main-Resume.pdf" download>
+                            <i class="fas fa-download"></i> Resume
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero text-center" data-aos="fade-up">
+        <div class="container">
+            <img src="./aditya.png" alt="Profile Photo">
+
+            <h1 class="display-5 fw-bold mt-4">Aditya Yashwant Main</h1>
+            <p class="lead">Full Stack Developer (MERN) | SQL | Python | Golang</p>
+            <p><strong>Location:</strong> Bhayander, Thane, Mumbai</p>
+
+            <a href="#contact" class="btn btn-primary btn-lg mt-3">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title text-primary text-center">About Me</h2>
+
+            <div class="custom-card mx-auto" style="max-width: 850px;" data-aos="fade-up">
+                <h5 class="text-primary fw-bold"><i class="fas fa-user me-2"></i>Who I Am</h5>
+                <p>
+                    I am a passionate Full Stack Developer specializing in the MERN stack. I focus on building responsive UI, secure REST APIs, scalable backend systems, and user-friendly full-stack applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title text-primary text-center">Education</h2>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="custom-card" data-aos="fade-right">
+                        <h5 class="fw-bold text-primary"><i class="fas fa-university me-2"></i>MCA – FAMT</h5>
+                        <p><strong>Duration:</strong> 2023–2025</p>
+                        <p><strong>CGPA:</strong> 8.42</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="custom-card" data-aos="fade-up">
+                        <h5 class="fw-bold text-success"><i class="fas fa-graduation-cap me-2"></i>B.Sc. – ASP College</h5>
+                        <p><strong>Duration:</strong> 2020–2023</p>
+                        <p><strong>CGPA:</strong> 9.49</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="custom-card" data-aos="fade-left">
+                        <h5 class="fw-bold text-warning"><i class="fas fa-school me-2"></i>HSC – Nive College</h5>
+                        <p><strong>Duration:</strong> 2018–2020</p>
+                        <p><strong>Stream:</strong> Science</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title text-primary text-center">Technical Skills</h2>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Frontend -->
+                <div class="col-md-3">
+                    <div class="custom-card text-center" data-aos="zoom-in">
+                        <i class="fas fa-code fa-3x text-primary mb-3"></i>
+                        <h5>Frontend</h5>
+                        <span class="skill-badge">HTML</span>
+                        <span class="skill-badge">CSS</span>
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">React.js</span>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="col-md-3">
+                    <div class="custom-card text-center" data-aos="zoom-in">
+                        <i class="fas fa-server fa-3x text-danger mb-3"></i>
+                        <h5>Backend</h5>
+                        <span class="skill-badge">Node.js</span>
+                        <span class="skill-badge">Express.js</span>
+                        <span class="skill-badge">Java</span>
+                        <span class="skill-badge">Golang</span>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="col-md-3">
+                    <div class="custom-card text-center" data-aos="zoom-in">
+                        <i class="fas fa-database fa-3x text-success mb-3"></i>
+                        <h5>Databases</h5>
+                        <span class="skill-badge">MySQL</span>
+                        <span class="skill-badge">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title text-primary">Projects</h2>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="custom-card" data-aos="fade-up">
+                        <h5 class="text-primary">E–Waste & Inventory Management System</h5>
+                        <p>MERN Stack</p>
+                        <p>Tracks e-waste recycling, manages inventory, and improves transparency.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="custom-card" data-aos="fade-up">
+                        <h5 class="text-primary">Spotify Clone</h5>
+                        <p>HTML, CSS, JavaScript</p>
+                        <p>Responsive music player with playlist & basic controls.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="custom-card" data-aos="fade-up">
+                        <h5 class="text-primary">CLI To–Do List</h5>
+                        <p>Node.js</p>
+                        <p>Task management CLI application.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title text-primary">Experience</h2>
+
+            <div class="custom-card bg-warning bg-gradient" data-aos="fade-right">
+                <h5 class="fw-bold">Full-Stack Web Development Intern</h5>
+                <p>Aaryak Solution, Ratnagiri (Jan–June 2025)</p>
+                <p>Developed a full-stack MERN web app with authentication, REST APIs, and responsive UI.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES -->
+    <section id="courses" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title text-primary">Courses</h2>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="custom-card bg-success text-white" data-aos="fade-right">
+                        Programming with Java – Swayam NPTEL
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="custom-card bg-success text-white" data-aos="fade-left">
+                        Python Fundamentals – Great Learning
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2 class="section-title text-primary">Achievements</h2>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="custom-card bg-info text-white" data-aos="fade-up">
+                        <h5>Runner-up – Web Dev Competition</h5>
+                        <p>Secured runner-up position at GJC for full-stack web development.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="custom-card bg-info text-white" data-aos="fade-up">
+                        <h5>Head – Coding Event</h5>
+                        <p>Led the coding event at Technical Fest demonstrating leadership.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section bg-light">
+        <div class="container d-flex justify-content-center">
+            <div class="custom-card text-center" style="max-width: 450px;" data-aos="fade-up">
+                <h2 class="text-primary mb-3">Contact Me</h2>
+
+                <p><i class="fas fa-envelope text-primary me-2"></i>
+                    <a href="mailto:adityamain33@gmail.com">adityamain33@gmail.com</a>
+                </p>
+
+                <p><i class="fas fa-phone text-primary me-2"></i> +91 8108959360 / 9422494398
+                </p>
+
+                <p><i class="fab fa-linkedin text-primary me-2"></i>
+                    <a href="https://www.linkedin.com/in/adityamain/" target="_blank">LinkedIn</a>
+                </p>
+
+                <p><i class="fas fa-globe text-primary me-2"></i>
+                    <a href="https://github.com/adityamain33" target="_blank">GitHub</a>
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center">
+        © 2025 Aditya Main. All Rights Reserved.
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+
+</html>
